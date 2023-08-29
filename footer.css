@@ -1,0 +1,29 @@
+.footer {
+  width: 100%;
+  height: 40vh;
+  background-color: red;
+  color: white;
+  background-color: rgb(19, 19, 62);
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+.footer-part {
+  width: 25%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 800px) {
+  .footer {
+    height: 150vh;
+    flex-direction: column;
+    padding-left: 60px;
+    gap: 50px;
+  }
+  .footer-part {
+    width: 50%;
+  }
+}

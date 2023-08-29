@@ -1,0 +1,124 @@
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+.home_left{
+    width: 33.5%;
+    height: 60%;
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   justify-content: center;
+}
+.home_left--name{
+    font-size: 3rem;
+    font-weight: 700;
+    color: rgb(0, 0, 120);
+    letter-spacing: 1px;
+    margin: 10px 0;
+
+}
+.home_left--position{
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.orange{
+    color: orange;
+}
+.darkred{
+    color: darkred;
+}
+.home_left--btn{
+    padding: 18px 40px;
+    background-color: blue;
+    box-shadow: 0 0 5px blue;
+    border-radius: 30px;
+    border: transparent;
+    color: #fff;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    cursor: pointer;
+    margin: 20px 0;
+}
+.home_left--btn:hover{
+    gap: 20px;
+    padding: 18px 30px 18px 40px;
+    transition: 0.2s linear;
+}
+.home_left--btn i{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home_left--icons {
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ margin: 20px 0;
+
+}
+.home_left--icons i{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(124, 124, 255);
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.home_left--icons i:hover{
+    color: #fff;
+    transition: .3s linear;
+}
+.home_right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.home_right img{
+    width: 400px;
+}
+@media only screen and (max-width:800px){
+    .home{
+        flex-direction: column;
+        padding-top: 10vh;
+        margin: 0 0 10px 0;
+    }
+    .home_left{
+        width: 100%;
+        align-items: center;
+        margin: 50px 0;
+        padding: 0 10px;
+    }
+    .home_right{
+        height: 40%;
+        width: 100%;
+        padding-bottom: 30px;
+
+    }
+    .home_right img{
+        width: 300px;
+        
+    }
+}

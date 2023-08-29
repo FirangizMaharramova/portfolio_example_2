@@ -1,0 +1,75 @@
+.education {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.education-text {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.education-text h1{
+    font-size: 2.5rem;
+}
+.education-text span{
+    color: blueviolet;
+
+}
+.education-boxes {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.education-box {
+  width: 60%;
+  height: 40%;
+  box-shadow: 0 0 5px rgb(156, 154, 154);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.education-box img{
+  height: 100%;
+}
+.edc-box-text {
+  width: 63%;
+  height: 100%;
+ 
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.edc-box-text h1 {
+  color: rgb(17, 17, 72);
+}
+.edc-box-text p {
+  font-size: 1rem;
+  color: rgb(156, 154, 154);
+}
+.edc-box-text h3 {
+  font-size: 1.2rem;
+  color: green;
+}
+@media only screen and (max-width:1000px){
+    .education-box{
+        width: 80%;
+        height: 100%;
+        flex-direction: column;
+    }
+    .education-box img{
+width: 100%;
+    }
+    .edc-box-text{
+      width: 100%;
+    }
+}
